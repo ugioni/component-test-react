@@ -1,0 +1,38 @@
+{
+  "name": "component-tests-react",
+  "version": "1.0.0",
+  "description": "Compenent testing with React Testing Library",
+  "private": true,
+  "author": "leandro.ugioni",
+  "dependencies": {
+    "prismjs": "^1.29.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-ga": "^3.3.1",
+    "react-scripts": "5.0.1",
+    "use-timeout": "^1.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "test": "react-scripts test --coverage"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@testing-library/react": "^13.4.0",
+    "react-test-renderer": "^18.2.0"
+  }
+}

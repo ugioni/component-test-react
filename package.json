@@ -1,7 +1,7 @@
 {
   "name": "component-tests-react",
   "version": "1.0.0",
-  "description": "Compenent testing with React Testing Library",
+  "description": "Component testing with React Testing Library",
   "private": true,
   "author": "leandro.ugioni",
   "dependencies": {

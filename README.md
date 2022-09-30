@@ -9,6 +9,6 @@
 
 Inside of the project folder run:
 
- 1. `npm install`
- 1. `npm start`
- 1. `npm test
+ 1. `npm install --save-dev`
+ 1. `npm run start`
+ 1. `npm run test`

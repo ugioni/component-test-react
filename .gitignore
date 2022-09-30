@@ -2,6 +2,8 @@ node_modules/
 /.pnp
 .pnp.js
 coverage/lcov-report/
+coverage/*.xml
+coverage/*.json
 /build
 .DS_Store
 .env.local

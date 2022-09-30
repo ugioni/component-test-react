@@ -6,12 +6,12 @@ afterEach(cleanup);
 
 const defaultProps = {
   onClick: jest.fn(),
-  text: "Submit",
+  text: "Enviar",
 };
 
 test("button renders with correct text", () => {
   const { queryByText, rerender } = render(<Button {...defaultProps} />);
-  expect(queryByText("Submit")).toBeTruthy();
+  expect(queryByText("Enviar")).toBeTruthy();
 
   // Change props
   rerender(<Button {...defaultProps} text="Go" />);

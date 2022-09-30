@@ -9,8 +9,8 @@ test("displays the correct greeting", () => {
   const input = getByLabelText("user-name");
   const greeting = getByTestId("change-input-greeting");
   expect(input.value).toBe("");
-  expect(greeting.textContent).toBe("Welcome, Anonymous User!");
-  fireEvent.change(input, { target: { value: "Rafael" } });
-  expect(input.value).toBe("Rafael");
-  expect(greeting.textContent).toBe("Welcome, Rafael!");
+  expect(greeting.textContent).toBe("Olá, Aluno!");
+  fireEvent.change(input, { target: { value: "Ugioni" } });
+  expect(input.value).toBe("Ugioni");
+  expect(greeting.textContent).toBe("Olá, Ugioni!");
 });

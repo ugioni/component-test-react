@@ -11,6 +11,6 @@ test("FocusInput matches snapshot", () => {
 
 test("clicking on button trigger focus on input", () => {
   const { getByPlaceholderText, getByText } = render(<FocusInput />);
-  fireEvent.click(getByText("Click to Focus"));
-  expect(document.activeElement).toBe(getByPlaceholderText("Focus me!"));
+  fireEvent.click(getByText("Clique aqui para focar"));
+  expect(document.activeElement).toBe(getByPlaceholderText("Foco aqui!!!"));
 });

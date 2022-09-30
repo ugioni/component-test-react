@@ -4,11 +4,11 @@ exports[`FocusInput matches snapshot 1`] = `
 <div>
   <input
     aria-label="focus-input"
-    placeholder="Focus me!"
+    placeholder="Foco aqui!!!"
     type="text"
   />
   <button>
-    Click to Focus
+    Clique aqui para focar
   </button>
 </div>
 `;

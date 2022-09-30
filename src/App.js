@@ -19,7 +19,7 @@ function App() {
       </header>
       <main>
         <Scenario
-          title="Scenario 1: Controlled Component"
+          title="Cenário 1: Botão"
           description={
             <ul>
               <li>
@@ -37,10 +37,10 @@ function App() {
               </li>
             </ul>
           }
-          component={<Button text="Submit" onClick={() => {}} />}
+          component={<Button text="Enviar" onClick={() => {}} />}
         />
         <Scenario
-          title="Scenario 2: Input Change"
+          title="Cenário 2: Input"
           description={
             <ul>
               <li>
@@ -56,7 +56,7 @@ function App() {
           component={<ChangeInput />}
         />
         <Scenario
-          title="Scenario 3: Focused Element"
+          title="Cenário 3: Foco"
           description={
             <ul>
               <li>
@@ -76,7 +76,7 @@ function App() {
           component={<FocusInput />}
         />
         <Scenario
-          title="Scenario 4: Effects"
+          title="Cenário 4: Effect"
           description={
             <ul>
               <li>

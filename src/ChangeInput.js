@@ -5,13 +5,13 @@ function ChangeInput() {
   return (
     <div>
       <span data-testid="change-input-greeting">
-        Welcome, {name === "" ? "Anonymous User" : name}!
+        Olá, {name === "" ? "Aluno" : name}!
       </span>
       <br />
       <input
         type="text"
         aria-label="user-name"
-        placeholder="Your name"
+        placeholder="Digite seu nome"
         value={name}
         onChange={(e) => setName(e.target.value)}
       />

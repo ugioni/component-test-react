@@ -8,9 +8,9 @@ const FocusInput = () => {
         type="text"
         aria-label="focus-input"
         ref={inputRef}
-        placeholder="Focus me!"
+        placeholder="Foco aqui!!!"
       />
-      <button onClick={() => inputRef.current.focus()}>Click to Focus</button>
+      <button onClick={() => inputRef.current.focus()}>Clique aqui para focar</button>
     </div>
   );
 };

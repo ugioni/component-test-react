@@ -10,7 +10,9 @@ const FocusInput = () => {
         ref={inputRef}
         placeholder="Foco aqui!!!"
       />
-      <button onClick={() => inputRef.current.focus()}>Clique aqui para focar</button>
+      <button onClick={() => inputRef.current.focus()}>
+        Clique aqui para focar
+      </button>
     </div>
   );
 };

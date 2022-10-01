@@ -4,12 +4,12 @@ import { render, fireEvent, cleanup } from "@testing-library/react";
 
 afterEach(cleanup);
 
-test("FocusInput matches snapshot", () => {
+test("Validar FocusInput snapshot", () => {
   const { container } = render(<FocusInput />);
   expect(container.firstChild).toMatchSnapshot();
 });
 
-test("clicking on button trigger focus on input", () => {
+test("Validar clique para focar", () => {
   const { getByPlaceholderText, getByText } = render(<FocusInput />);
   fireEvent.click(getByText("Clique aqui para focar"));
   expect(document.activeElement).toBe(getByPlaceholderText("Foco aqui!!!"));

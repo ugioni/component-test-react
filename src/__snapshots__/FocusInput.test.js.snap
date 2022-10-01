@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`FocusInput matches snapshot 1`] = `
+exports[`Validar FocusInput snapshot 1`] = `
 <div>
   <input
     aria-label="focus-input"

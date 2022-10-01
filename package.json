@@ -10,12 +10,14 @@
     "react-dom": "18.2.0",
     "react-ga": "^3.3.1",
     "react-scripts": "5.0.1",
-    "use-timeout": "^1.1.0"
+    "rimraf": "^3.0.2",
+    "mkdirp": "^1.0.4"
   },
   "scripts": {
+    "clean": "rimraf ./coverage && mkdirp ./coverage",
     "start": "react-scripts start",
-    "test": "react-scripts test --watchAll --coverage",
-    "ci": "react-scripts test --watchAll=false --coverage"
+    "test": "react-scripts test --watchAll",
+    "ci": "npm run clean && react-scripts test --watchAll=false --coverage"
   },
   "eslintConfig": {
     "extends": "react-app"

@@ -25,34 +25,13 @@ code {
 }
 
 .code-container {
-  padding: 20px;
-  border: 1px solid #eee;
+  padding: 5px;  
   margin-top: 10px;
 }
 
 .code-link {
   margin-top: 5px;
   margin-bottom: 10px;
-}
-
-footer {
-  display: flex;
-  justify-content: center;
-  padding: 15px;
-  border-top: 1px solid #aaa;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 15px;
-  flex-wrap: wrap;
-}
-
-footer a {
-  margin-left: 5px;
-  margin-right: 5px;
-}
-
-footer a:visited {
-  color: blue;
 }
 
 .scenario-container {

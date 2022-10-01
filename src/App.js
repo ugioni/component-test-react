@@ -19,12 +19,12 @@ function App() {
       </header>
       <main>
         <Scenario
-          title="Cenário 1: Botão"
+          title="Componente Botão"
           component={<Button text="Enviar" onClick={() => {}} />}
         />
-        <Scenario title="Cenário 2: Input" component={<ChangeInput />} />
-        <Scenario title="Cenário 3: Foco" component={<FocusInput />} />
-        <Scenario title="Cenário 4: Effect" component={<Counter />} />
+        <Scenario title="Componente Input" component={<ChangeInput />} />
+        <Scenario title="Componente Foco" component={<FocusInput />} />
+        <Scenario title="Componente Effects" component={<Counter />} />
       </main>
     </div>
   );

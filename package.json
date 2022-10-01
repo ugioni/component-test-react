@@ -14,7 +14,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "test": "react-scripts test --watchAll --coverage"
+    "test": "react-scripts test --watchAll --coverage",
+    "ci": "react-scripts test --watchAll=false --coverage"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -33,6 +34,7 @@
   },
   "devDependencies": {
     "@testing-library/react": "^13.4.0",
+    "jest-watch-typeahead": "^0.6.5",
     "react-test-renderer": "^18.2.0"
   }
 }

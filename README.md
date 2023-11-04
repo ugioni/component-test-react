@@ -7,7 +7,7 @@
 # Getting Started
 
 ### Prerequisites:
- - NodeJS `v12.22.1`
+ - NodeJS `v18.x`
 
 ### How to run?
 

@@ -1,9 +1,9 @@
-import React, { useState, useRef } from "react";
+import React, { useState } from "react";
 import Button from "./Button";
 
 function Counter() {
   const [count, setCount] = useState(0);
-  
+
   return (
     <div>
       <span data-testid="count">
